@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context="com.mahdi.uploadvolley.MainActivity">
+
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="160dp"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:text="Upload"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="160dp"
+        android:layout_height="63dp"
+        android:layout_alignParentRight="true"
+        android:text="Selecting a image"
+        android:textSize="15dp" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true" />
+
+
+
+</RelativeLayout>
